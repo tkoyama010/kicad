@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Arduino_As_Uno-cache
+LIBS:kicad-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -298,4 +298,15 @@ Wire Notes Line
 	11200 1000 10700 1000
 Wire Notes Line
 	10700 1000 10700 500 
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-PU U?
+U 1 1 5BF5C9D7
+P 2900 4050
+F 0 "U?" H 2259 4096 50  0000 R CNN
+F 1 "ATmega328P-PU" H 2259 4005 50  0000 R CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 2900 4050 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 2900 4050 50  0001 C CNN
+	1    2900 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
